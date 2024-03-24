@@ -1,0 +1,42 @@
+.card,.card1,.card2,.card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    display: block
+  }
+  h1{
+    align-items: center;
+    align-content: baseline;
+    color:  blueviolet ;
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+  div{
+    float: left;
+    padding: 15px;
+  }
+  .price,.price1,.price2,.price3 {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button, .card1 button, .card2 button,.card3 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover,.card1 button:hover ,.card2 button:hover,.card3 button:hover{
+    opacity: 0.7;
+  } 
+    

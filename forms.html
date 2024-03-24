@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<style>
+    table,
+    th,
+    td {
+        color: black;
+        table-layout: fixed;
+        width: fit-content;
+        background-color: beige;
+        border-radius: 2px;
+        border-color: black;
+        width: 50%;
+        margin: 5px;
+    }
+</style>
+
+
+<head>
+    <title>registration form</title>
+    <link rel="stylesheet" href="css/newf.css">
+
+</head>
+
+<body>
+    <h1> REGISTRATION FORM</h1>
+    <div class="container">
+
+        <table>
+            <form action="login.html" method="post" autocomplete="on">
+
+                <p><b>Please fill in this form to create an account.</b></p>
+
+
+
+
+
+                <label for="un"><b> Enter First name </b> </label>
+                <input type="text" name="user_name" id="un" required>
+
+
+
+
+                <br>
+                <br>
+                <b>Enter Last name</b>
+                <input type="text" name="pass"><br><br>
+
+
+
+                <b> Enter Address</b> <br>
+                <textarea name="Description" cols="36" rows="3"></textarea>
+
+                <br><br>
+
+                <label for="mn"><b>Enter Mobile Number </b></label>
+                <input type="text" placeholder="9XXXXXXXXX" name="phnnum" id="phnnum" required><br><br>
+
+
+
+                <b>Enter Gender:</b>
+                <input type="radio" name="subject">Male
+                <input type="radio" name="subject">Female
+                <br><br>
+
+                <label for="date"> <b>Enter your date of birth </b></label>
+                <input type="date" placeholder="date" id="date" required>
+                <br><br>
+
+
+                <b>Enter the items you want to buy</b><br>
+                <br>
+                <input type="checkbox" name="A" value="on">Apparel
+                <input type="checkbox" name="B" value="on">Accessories
+                <input type="checkbox" name="B" value="on">Groceries
+                <input type="checkbox" name="B" value="on">Beauty Products
+                <input type="checkbox" name="B" value="on">Furniture
+                <br>
+
+                <br>
+                <b> Enter your current Location</b>
+                <select>
+                    <option>Vizag</option>
+                    <option value="P">Mumbai</option>
+                    <option value="M"> Chennai</option>
+                    <option value="P">Bangalore</option>
+                    <option value="M">Hyderabad</option>
+                    <option value="P">Vizag</option>
+                    <option value="M">Delhi</option>
+                    <option aria-placeholder="P">Bhopal</option>
+                </select>
+                <br><br>
+                <label for="email"><b> Enter Email </b></label>
+                <input type="text" name="email" id="email"><br><br>
+
+                <br><br>
+
+                <label for="psw"><b> Enter Password </b></label>
+                <input type="password" name="psw" id="psw"><br><br>
+
+                <label for="psw-repeat"><b>Confirm Password </b></label>
+                <input type="password" name="psw-repeat" id="psw-repeat">
+                <hr>
+
+
+
+                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a></p>
+                <button type="submit" class="registerbtn">Register</button><br><br>
+                <p><b>Already have an account?</b> <a href="#">Sign in</a>.</p>
+    </div>
+
+
+
+
+
+    </form>
+    </table>
+
+</body>
+
+</html>
